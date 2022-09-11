@@ -82,7 +82,7 @@ if  st.button('Extract tweets & Analyze'):
     tw['sentiment'] = tw['Text'].apply(polarity)
 
     selected_cust_id = st.selectbox(
-                'select your cust id' ,
+                'your tweets' ,
                 tw['sentiment'].values)
 
 
